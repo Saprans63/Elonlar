@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1081154136640-ca70h7dktpve8tr5gg0etbfbt4697kdg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1081154136640-ca70h7dktpve8tr5gg0etbfbt4697kdg</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBJRcxhgXYzOjSd1th7a3yr0fdW3kxU8XY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1081154136640</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>MySoft.Elonlar</string>
+	<key>PROJECT_ID</key>
+	<string>elonlar-8e75a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>elonlar-8e75a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1081154136640:ios:f50c54b67c564fbcc5cda5</string>
+</dict>
+</plist>

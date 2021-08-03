@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		636B03B2C148B1D0ACFB1AD9 /* Pods_Elonlar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D3B2C79E245F4625C0675F /* Pods_Elonlar.framework */; };
+		9675E5D226A8446000BE9EFE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9675E5D126A8446000BE9EFE /* GoogleService-Info.plist */; };
+		969DE65D26AA6F8B003FF603 /* xotirasi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969DE65C26AA6F8B003FF603 /* xotirasi.swift */; };
+		96A69E3226A82874005A8257 /* Narxi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A69E3126A82874005A8257 /* Narxi.swift */; };
+		96A69E3726A82FC2005A8257 /* photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A69E3626A82FC2005A8257 /* photo.swift */; };
+		96A6E20126A7D33B00368551 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A6E20026A7D33B00368551 /* ButtonStyle.swift */; };
+		96A6E20726A8052200368551 /* anima.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A6E20626A8052200368551 /* anima.swift */; };
 		96D0356D26A52CAF0040DD6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0356C26A52CAF0040DD6D /* AppDelegate.swift */; };
 		96D0356F26A52CAF0040DD6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0356E26A52CAF0040DD6D /* SceneDelegate.swift */; };
 		96D0357126A52CAF0040DD6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0357026A52CAF0040DD6D /* ContentView.swift */; };
@@ -14,9 +21,26 @@
 		96D0357626A52CB50040DD6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D0357526A52CB50040DD6D /* Assets.xcassets */; };
 		96D0357926A52CB50040DD6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D0357826A52CB50040DD6D /* Preview Assets.xcassets */; };
 		96D0357C26A52CB50040DD6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D0357A26A52CB50040DD6D /* LaunchScreen.storyboard */; };
+		96D0358526A530710040DD6D /* Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0358426A530710040DD6D /* Apple.swift */; };
+		96D0358926A53DF00040DD6D /* Samsung.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0358826A53DF00040DD6D /* Samsung.swift */; };
+		96D0358B26A53E210040DD6D /* Xiaomi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0358A26A53E210040DD6D /* Xiaomi.swift */; };
+		96D0358D26A53E3B0040DD6D /* Huawei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0358C26A53E3B0040DD6D /* Huawei.swift */; };
+		96D0359126A543A30040DD6D /* barcha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0359026A543A30040DD6D /* barcha.swift */; };
+		96D0359426A54E3A0040DD6D /* Sotish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0359326A54E3A0040DD6D /* Sotish.swift */; };
+		96D0359626A5598B0040DD6D /* sotuvtelefon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0359526A5598B0040DD6D /* sotuvtelefon.swift */; };
+		96D0359826A55AF70040DD6D /* markalari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0359726A55AF70040DD6D /* markalari.swift */; };
+		96D0359A26A5700F0040DD6D /* hususiyati.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0359926A5700F0040DD6D /* hususiyati.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EABAE15DBF4A75639334D89 /* Pods-Elonlar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elonlar.release.xcconfig"; path = "Target Support Files/Pods-Elonlar/Pods-Elonlar.release.xcconfig"; sourceTree = "<group>"; };
+		2008B6D0A7EC42DFE7D5101B /* Pods-Elonlar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elonlar.debug.xcconfig"; path = "Target Support Files/Pods-Elonlar/Pods-Elonlar.debug.xcconfig"; sourceTree = "<group>"; };
+		9675E5D126A8446000BE9EFE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		969DE65C26AA6F8B003FF603 /* xotirasi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xotirasi.swift; sourceTree = "<group>"; };
+		96A69E3126A82874005A8257 /* Narxi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Narxi.swift; sourceTree = "<group>"; };
+		96A69E3626A82FC2005A8257 /* photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photo.swift; sourceTree = "<group>"; };
+		96A6E20026A7D33B00368551 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		96A6E20626A8052200368551 /* anima.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anima.swift; sourceTree = "<group>"; };
 		96D0356926A52CAF0040DD6D /* Elonlar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elonlar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D0356C26A52CAF0040DD6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96D0356E26A52CAF0040DD6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +50,16 @@
 		96D0357826A52CB50040DD6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		96D0357B26A52CB50040DD6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96D0357D26A52CB50040DD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D0358426A530710040DD6D /* Apple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple.swift; sourceTree = "<group>"; };
+		96D0358826A53DF00040DD6D /* Samsung.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Samsung.swift; sourceTree = "<group>"; };
+		96D0358A26A53E210040DD6D /* Xiaomi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xiaomi.swift; sourceTree = "<group>"; };
+		96D0358C26A53E3B0040DD6D /* Huawei.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Huawei.swift; sourceTree = "<group>"; };
+		96D0359026A543A30040DD6D /* barcha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barcha.swift; sourceTree = "<group>"; };
+		96D0359326A54E3A0040DD6D /* Sotish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sotish.swift; sourceTree = "<group>"; };
+		96D0359526A5598B0040DD6D /* sotuvtelefon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sotuvtelefon.swift; sourceTree = "<group>"; };
+		96D0359726A55AF70040DD6D /* markalari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = markalari.swift; sourceTree = "<group>"; };
+		96D0359926A5700F0040DD6D /* hususiyati.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hususiyati.swift; sourceTree = "<group>"; };
+		D6D3B2C79E245F4625C0675F /* Pods_Elonlar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Elonlar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +67,86 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				636B03B2C148B1D0ACFB1AD9 /* Pods_Elonlar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D1BE666DBB210B4DDFC183D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2008B6D0A7EC42DFE7D5101B /* Pods-Elonlar.debug.xcconfig */,
+				1EABAE15DBF4A75639334D89 /* Pods-Elonlar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		866BEAC6885DFD80E8D34263 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6D3B2C79E245F4625C0675F /* Pods_Elonlar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9675E5CF26A83FBB00BE9EFE /* Glavniy */ = {
+			isa = PBXGroup;
+			children = (
+				96D0357026A52CAF0040DD6D /* ContentView.swift */,
+			);
+			path = Glavniy;
+			sourceTree = "<group>";
+		};
+		9675E5D026A83FD600BE9EFE /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				96D0357226A52CAF0040DD6D /* Elonlar.xcdatamodeld */,
+				96D0357A26A52CB50040DD6D /* LaunchScreen.storyboard */,
+				96D0357526A52CB50040DD6D /* Assets.xcassets */,
+			);
+			path = apputils;
+			sourceTree = "<group>";
+		};
+		96A69E3326A82F70005A8257 /* foto */ = {
+			isa = PBXGroup;
+			children = (
+				96A69E3626A82FC2005A8257 /* photo.swift */,
+			);
+			path = foto;
+			sourceTree = "<group>";
+		};
+		96A6E1FF26A7D31300368551 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				96A6E20026A7D33B00368551 /* ButtonStyle.swift */,
+				96A6E20626A8052200368551 /* anima.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		96B21F9E26AFCA8F00E3E082 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		96B21FA526AFCB5100E3E082 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		96D0356026A52CAF0040DD6D = {
 			isa = PBXGroup;
 			children = (
 				96D0356B26A52CAF0040DD6D /* Elonlar */,
 				96D0356A26A52CAF0040DD6D /* Products */,
+				3D1BE666DBB210B4DDFC183D /* Pods */,
+				866BEAC6885DFD80E8D34263 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +161,18 @@
 		96D0356B26A52CAF0040DD6D /* Elonlar */ = {
 			isa = PBXGroup;
 			children = (
+				9675E5CF26A83FBB00BE9EFE /* Glavniy */,
+				96B21FA526AFCB5100E3E082 /* Model */,
+				96B21F9E26AFCA8F00E3E082 /* Firebase */,
+				9675E5D026A83FD600BE9EFE /* apputils */,
+				96A69E3326A82F70005A8257 /* foto */,
+				96A6E1FF26A7D31300368551 /* Style */,
+				96D0359226A54E2A0040DD6D /* Sotish */,
+				96D0358326A5304E0040DD6D /* Talafon Group */,
 				96D0356C26A52CAF0040DD6D /* AppDelegate.swift */,
 				96D0356E26A52CAF0040DD6D /* SceneDelegate.swift */,
-				96D0357026A52CAF0040DD6D /* ContentView.swift */,
-				96D0357526A52CB50040DD6D /* Assets.xcassets */,
-				96D0357A26A52CB50040DD6D /* LaunchScreen.storyboard */,
+				9675E5D126A8446000BE9EFE /* GoogleService-Info.plist */,
 				96D0357D26A52CB50040DD6D /* Info.plist */,
-				96D0357226A52CAF0040DD6D /* Elonlar.xcdatamodeld */,
 				96D0357726A52CB50040DD6D /* Preview Content */,
 			);
 			path = Elonlar;
@@ -78,6 +186,31 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		96D0358326A5304E0040DD6D /* Talafon Group */ = {
+			isa = PBXGroup;
+			children = (
+				96D0358426A530710040DD6D /* Apple.swift */,
+				96D0358826A53DF00040DD6D /* Samsung.swift */,
+				96D0358A26A53E210040DD6D /* Xiaomi.swift */,
+				96D0358C26A53E3B0040DD6D /* Huawei.swift */,
+				96D0359026A543A30040DD6D /* barcha.swift */,
+			);
+			path = "Talafon Group";
+			sourceTree = "<group>";
+		};
+		96D0359226A54E2A0040DD6D /* Sotish */ = {
+			isa = PBXGroup;
+			children = (
+				96D0359326A54E3A0040DD6D /* Sotish.swift */,
+				96D0359526A5598B0040DD6D /* sotuvtelefon.swift */,
+				96D0359726A55AF70040DD6D /* markalari.swift */,
+				96D0359926A5700F0040DD6D /* hususiyati.swift */,
+				969DE65C26AA6F8B003FF603 /* xotirasi.swift */,
+				96A69E3126A82874005A8257 /* Narxi.swift */,
+			);
+			path = Sotish;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96D0358026A52CB50040DD6D /* Build configuration list for PBXNativeTarget "Elonlar" */;
 			buildPhases = (
+				7DC08FCDF51A496C37048725 /* [CP] Check Pods Manifest.lock */,
 				96D0356526A52CAF0040DD6D /* Sources */,
 				96D0356626A52CAF0040DD6D /* Frameworks */,
 				96D0356726A52CAF0040DD6D /* Resources */,
+				F78FD1660F14A3F9E5919878 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96D0357C26A52CB50040DD6D /* LaunchScreen.storyboard in Resources */,
+				9675E5D226A8446000BE9EFE /* GoogleService-Info.plist in Resources */,
 				96D0357926A52CB50040DD6D /* Preview Assets.xcassets in Resources */,
 				96D0357626A52CB50040DD6D /* Assets.xcassets in Resources */,
 			);
@@ -143,15 +279,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7DC08FCDF51A496C37048725 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Elonlar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F78FD1660F14A3F9E5919878 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Elonlar/Pods-Elonlar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Elonlar/Pods-Elonlar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Elonlar/Pods-Elonlar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96D0356526A52CAF0040DD6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D0359A26A5700F0040DD6D /* hususiyati.swift in Sources */,
 				96D0356D26A52CAF0040DD6D /* AppDelegate.swift in Sources */,
 				96D0357426A52CAF0040DD6D /* Elonlar.xcdatamodeld in Sources */,
+				96D0358D26A53E3B0040DD6D /* Huawei.swift in Sources */,
+				969DE65D26AA6F8B003FF603 /* xotirasi.swift in Sources */,
+				96D0358926A53DF00040DD6D /* Samsung.swift in Sources */,
 				96D0356F26A52CAF0040DD6D /* SceneDelegate.swift in Sources */,
+				96D0359126A543A30040DD6D /* barcha.swift in Sources */,
+				96D0359626A5598B0040DD6D /* sotuvtelefon.swift in Sources */,
 				96D0357126A52CAF0040DD6D /* ContentView.swift in Sources */,
+				96D0358B26A53E210040DD6D /* Xiaomi.swift in Sources */,
+				96D0358526A530710040DD6D /* Apple.swift in Sources */,
+				96D0359826A55AF70040DD6D /* markalari.swift in Sources */,
+				96A69E3726A82FC2005A8257 /* photo.swift in Sources */,
+				96A6E20726A8052200368551 /* anima.swift in Sources */,
+				96D0359426A54E3A0040DD6D /* Sotish.swift in Sources */,
+				96A69E3226A82874005A8257 /* Narxi.swift in Sources */,
+				96A6E20126A7D33B00368551 /* ButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +479,7 @@
 		};
 		96D0358126A52CB50040DD6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2008B6D0A7EC42DFE7D5101B /* Pods-Elonlar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -307,6 +500,7 @@
 		};
 		96D0358226A52CB50040DD6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EABAE15DBF4A75639334D89 /* Pods-Elonlar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
